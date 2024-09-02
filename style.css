@@ -1,0 +1,79 @@
+body {
+    margin: 0 auto;
+    background-color: #e92d25;
+    background-image: url(dan-dennis-vJgUfnx8lvU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    color: #d1893d;
+    background: url(3a3d0561941e1a045d63d153fff8a6ed.jpg);
+    width: 500px;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #00712D;
+    padding-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+input {
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#addTip {
+    background-color: #FFFBE6;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#btn {
+    margin-top: 10px;
+    border: none;
+    background-color: #d1893d;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#tip {
+    display: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+#showTotalAmountToPay {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+#billSplit,
+#totalSplit,
+#totalAmount {
+    background-color: #D5ED9F;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #000 solid 1px;
+}

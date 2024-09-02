@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>split</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>ДАВАЙ ПОДЕЛИМ СЧЕТ!</h1>
+        <form>
+            <p>Общая сумма</p>
+            <span>
+                <input type="text" id="bill" placeholder="Сумма">
+            </span>
+            <p>Количество человек</p>
+            <span>
+                <input type="text" id="people" placeholder="Сколько людей?">
+            </span>
+
+            <p>Тебе понравился сервис?</p>
+            <button id="addTip">Добавь чаевые!!!</button>
+            <select id="tip">
+                    <option disabled>Выбери вариант</option>
+                    <option value="0.30">Отлично! 30% </option>
+                    <option value="0.20">Замечательный сервис! 20%</option>
+                    <option value="0.10">Хорошо! 10% </option>
+                    <option value="0.00" selected>Без чаевых!</option>
+            </select>
+
+            <button id="btn">Калькулятор</button>
+        </form>
+        <div id="showTotalAmountToPay">
+            <div id="billSplit">
+                <p>Счет</p>
+                <span id="dividedBill"></span>
+                <span>руб</span>
+                <span>за чел.</span>
+            </div>
+            <div id="totalSplit">
+                <p>Чаевые</p>
+                <span id="dividedTip"></span>
+                <span>руб</span>
+                <span>за чел.</span>
+            </div>
+            <div id="totalAmount">
+                <p>Всего</p>
+                <span id="billAndTip"></span>
+                <span>руб</span>
+                <span>за чел.</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
